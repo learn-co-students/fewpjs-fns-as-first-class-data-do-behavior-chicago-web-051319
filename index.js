@@ -15,7 +15,7 @@ const greet = time => {
 
   if (hours <= 11) {
     return "Good Morning";
-  } else if (hours >= 5 && minutes < 1) {
+  } else if (hours >= 5 && minutes > 1) {
     return "Good Evening";
   }
   return "Good Afternoon";
